@@ -1,1 +1,25 @@
-You need to have pygame installed in order to run this. I'm sure there was a way for me to include that (something with pyinstaller, I think), but this is my first time doing something like this, so please bear with me.
+# Asteroid Game Project
+
+To play first create a virtual environment and activate it.
+
+```sh
+python -m venv .venv
+
+# Linux and Mac
+. .venv/bin/activate
+
+# Windows
+.venv\Scripts\Activate.ps1
+```
+
+Then install the requirements
+
+```sh
+python -m pip install -r requirements.txt
+```
+
+Then with the virtual environment activate you can play the game.
+
+```sh
+python asteroid.py
+```
